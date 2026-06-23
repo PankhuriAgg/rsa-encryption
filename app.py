@@ -11,7 +11,7 @@ import pandas as pd
 
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="RSA Encryption — NIT Jalandhar",
+    page_title="RSA Encryption",
     page_icon="🔐",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -103,7 +103,7 @@ from rsa_core import (
 
 # ── Sidebar ──────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.markdown("## 🔐 RSA Encryption\n`NIT Jalandhar · IEEE Paper`")
+    st.markdown("## 🔐 RSA Encryption")
     st.markdown("---")
     tab_choice = st.radio(
         "Mode",
