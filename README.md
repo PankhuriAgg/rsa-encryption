@@ -1,8 +1,4 @@
-# 🔐 RSA Encryption — From Scratch to Production
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rsa-encryption.streamlit.app)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+# RSA Encryption — From Scratch to Production
 
 > Companion implementation for the IEEE paper:
 > **"RSA Encryption: Mathematical Foundations, From-Scratch Implementation, and Performance Benchmarking"**
@@ -10,7 +6,7 @@
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
 **[rsa-encryption.streamlit.app](https://rsa-encryption.streamlit.app)**
 
@@ -34,10 +30,10 @@ Two complete RSA implementations, side by side:
 
 ## Features
 
-- 🔑 **Live Demo** — generate real RSA keypairs, encrypt text, decrypt back, see the actual big-integer ciphertext and all key parameters (n, e, d, p, q)
-- 📊 **Stress Test** — benchmark key sizes 1024 / 2048 / 3072 / 4096 bits with Plotly charts and CSV export
-- 📐 **Theory Tab** — all paper equations rendered in LaTeX (Euler's theorem, Miller-Rabin, Extended Euclidean)
-- 💻 **CLI** — full terminal interface with `keygen`, `demo`, and `stress` commands
+- **Live Demo** — generate real RSA keypairs, encrypt text, decrypt back, see the actual big-integer ciphertext and all key parameters (n, e, d, p, q)
+- **Stress Test** — benchmark key sizes 1024 / 2048 / 3072 / 4096 bits with Plotly charts and CSV export
+- **Theory Tab** — all paper equations rendered in LaTeX (Euler's theorem, Miller-Rabin, Extended Euclidean)
+- **CLI** — full terminal interface with `keygen`, `demo`, and `stress` commands
 
 ---
 
@@ -125,7 +121,7 @@ See the Theory tab in the app or the accompanying IEEE paper for full derivation
 
 ---
 
-## ⚠️ Security Notice
+## Security Notice
 
 `ScratchRSA` uses **no padding** and is **not constant-time**.
 It is for educational purposes only — never use it for real data.
@@ -139,11 +135,3 @@ MIT License — see [LICENSE](LICENSE)
 
 ---
 
-## Citation
-
-If you use this in academic work:
-
-```
-P. Aggarwal, "RSA Encryption: Mathematical Foundations, From-Scratch
-Implementation, and Performance Benchmarking," NIT Jalandhar, 2025.
-```
