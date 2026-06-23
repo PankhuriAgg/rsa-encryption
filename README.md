@@ -56,7 +56,7 @@ rsa-encryption/
 
 ```bash
 # 1. Clone
-git clone https://github.com/YOUR_USERNAME/rsa-encryption.git
+git clone https://github.com/PankhuriAgg/rsa-encryption.git
 cd rsa-encryption
 
 # 2. Create virtual environment
